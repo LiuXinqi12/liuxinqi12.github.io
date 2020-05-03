@@ -86,12 +86,12 @@
 
 
 
-<meta name="description" content="技术的积淀，人文的体察，为免于工具化的自我反思和价值思考，所读，所见，所知，所想。">
+<meta name="description" content="技术积淀，人文体察，为免于工具化的自我反思和价值思考，所读，所见，所知，所想。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Liu Xinqi&#39;s Blog">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="Liu Xinqi&#39;s Blog">
-<meta property="og:description" content="技术的积淀，人文的体察，为免于工具化的自我反思和价值思考，所读，所见，所知，所想。">
+<meta property="og:description" content="技术积淀，人文体察，为免于工具化的自我反思和价值思考，所读，所见，所知，所想。">
 <meta property="article:author" content="Liu Xinqi">
 <meta name="twitter:card" content="summary">
 
@@ -466,7 +466,7 @@
       
         
           
-            <img src="/2020/05/03/A-Real-Time-RGB-D-Reconstruction-Framework-with-High-Resolution-Texture/Fig1.png" class title="Comparison with On-line and Off-line methods">
+            <img src="/2020/05/03/A-Real-Time-RGB-D-Reconstruction-Framework-with-High-Resolution-Texture/Fig1.png" class title="Comparison with On-line and Off-line methods.">
 
 <h3 id="Abstract："><a href="#Abstract：" class="headerlink" title="Abstract："></a>Abstract：</h3><p>&emsp;  We propose the first volumetric RGB-D reconstruction framework based on texture mapping to generate high-resolution texture in real time. The remarkable effect is mainly based on a real-time optimal view selection method, which selects the optimal view of the global mesh triangle by using the optimization with a new patches dense constraints. By storing the optimal view results into voxels and updating them, we can not only solve the problem of global mesh dynamic changes, but also maintain the continuity and consistency of texture patches. To effectively reduce the redundant information of RGB data stored for texture generation, we propose a hierarchical dynamic keyframe selection method to pick up high-quality keyframes from the RGB-D data stream. A downsampling global optimization and a edge based Poisson fusion are designed to accelerate seams leveling. Compared with the on-line(KinectFuison) and off-line(Intrinsic3D, Zollhöfer method) RGB-D reconstruction frameworks, our can achieve a greater clarity texture effect with a lower memory cost and an acceptable calculation cost. More importantly, it provides a new idea for the application of virtual reality and augmented reality. </p>
 <h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h3><font size="1">
@@ -592,7 +592,7 @@
       
         
           
-            <img src="/2020/05/03/A-New-Volumetric-Fusion-Strategy-with-Adaptive-Weight-Field-for-RGB-D-Reconstruction/Fig1.png" class title="Comparison with On-line and Off-line methods">
+            <img src="/2020/05/03/A-New-Volumetric-Fusion-Strategy-with-Adaptive-Weight-Field-for-RGB-D-Reconstruction/Fig1.png" class title="Comparison with On-line and Off-line methods.">
 
 <h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract:"></a>Abstract:</h3><p>&emsp; We propose a new volumetric fusion strategy which can be embedded into the current online and offline reconstruction framework as a basic module to significantly improve the geometric and texture accuracy of the reconstruction results. In the first step, we establish an RGB-D confidence evaluation mechanism to evaluate and extract high-reliability data from the video stream for volumetric fusion. The evaluation is achieved by using a combination of probability method and heuristic method to construct an adaptive weight field of the RGB-D data. In the second step, we use a new fusion strategy that combines replacement, integration and fixedness operations to fuse and update voxel texture to reduce texture blur. Experimental results demonstrate that compared to the classical methods, our approach can significantly improve the accuracy in geometry and texture, and can achieve equivalent texture reconstruction effects in real-time as the offline reconstruction methods such as intrinsic3d, even better in relief scenes.</p>
 <h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h3><font size="1">
@@ -718,7 +718,7 @@
       
         
           
-            <img src="/2020/05/03/Refinefusion-Real-Time-3D-Reconstruction-using-Refined-Depth-Map-and-The-Data-Structure-Combines-Voxels-and-Points/Fig1.png" class title="Comparison with online and offline methods">
+            <img src="/2020/05/03/Refinefusion-Real-Time-3D-Reconstruction-using-Refined-Depth-Map-and-The-Data-Structure-Combines-Voxels-and-Points/Fig1.png" class title="Comparison with On-line and Off-line methods.">
 
 <h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract:"></a>Abstract:</h3><p>&emsp; Considering that the low-quality depth map will introduce lots of noise for RGB-D 3D reconstruction, we propose a real-time depth map refinement method using the previous frame fused results to refine the real-time frame depth map, so that high-resolution and high-precision depth map can be obtained to improve the reconstruction accuracy. To guide the refinement process, we use points to store and process the information that is not used by regular voxels in depth map. These points are stored in voxels to form a new data structure, which can more flexibly control memory consumption than a single voxel expression. With these supplemented points, a new multi-resolution fusion method based on hierarchical grids has been proposed to obtain a higher resolution results. Experimental results show that our method can significantly improve the reconstruction accuracy, effectively avoid artifacts and converge to the smooth surface faster than that without depth map refinement.</p>
 <h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h3><font size="1">
@@ -844,7 +844,7 @@
       
         
           
-            <img src="/2020/05/03/Non-prior-Dynamic-Reconstruction-of-Deformable-Flexible-Objects/Fig1.png" class title="Reconstruction effect">
+            <img src="/2020/05/03/Non-prior-Dynamic-Reconstruction-of-Deformable-Flexible-Objects/Fig1.png" class title="Reconstruction Results.">
 
 <h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract:"></a>Abstract:</h3><p>&emsp; Flexible deformable objects, such as clothing, are prone to incomplete information and inconsistent grid structures in different states by using traditional dynamic reconstruction methods due to their self-occluding fold structure and deformable characteristics. In this paper, the dynamic deformation results with complete geometry and texture information are reconstructed without prior knowledge. First of all, we propose the concept of self-improvement template to realize the gradual construction of clothing geometric information. We use the experimental platform of fitting robot to drive the garment deformation to different states and reconstruct its corresponding 3D model. According to the information complementary between these results of different states, the self-improvement template is updated state by state, and the clothing model is built continuously with complete geometric information. Then, based on the joint consistency error of deformation graph and optical flow feature points, the mapping relationship between different deformation states of clothing is constructed, so as to achieve the dynamic reconstruction results of clothing in different states with consistent mesh structure. Finally, we use Markov random field to get the optimal texture patch results, and combine the global optimization to eliminate the seam between the patches, generate texture map to obtain the continuous and clear clothing texture in each reconstruction state. The experimental results show that our method can provide a new idea for the dynamic reconstruction of deformable color flexible objects.</p>
 <h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h3><font size="1">
@@ -925,7 +925,7 @@
                 alt="Liu Xinqi" />
             
               <p class="site-author-name" itemprop="name">Liu Xinqi</p>
-              <p class="site-description motion-element" itemprop="description">技术的积淀，人文的体察，为免于工具化的<br>自我反思和价值思考，所读，所见，所知，所想。</p>
+              <p class="site-description motion-element" itemprop="description">技术积淀，人文体察，为免于工具化的<br>自我反思和价值思考，所读，所见，所知，所想。</p>
           </div>
 
 
