@@ -14,6 +14,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -53,16 +60,16 @@
 <link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/icon1.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icon1.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icon1.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+  <link rel="mask-icon" href="/images/icon1.png?v=5.1.4" color="#222">
 
 
 
@@ -81,9 +88,9 @@
 
 <meta name="description" content="技术的积淀，人文的体察，为免于工具化的自我反思和价值思考，所读，所见，所知，所想。">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Thought">
+<meta property="og:title" content="Liu Xinqi&#39;s Blog">
 <meta property="og:url" content="http://yoursite.com/archives/index.html">
-<meta property="og:site_name" content="Thought">
+<meta property="og:site_name" content="Liu Xinqi&#39;s Blog">
 <meta property="og:description" content="技术的积淀，人文的体察，为免于工具化的自我反思和价值思考，所读，所见，所知，所想。">
 <meta property="article:author" content="Liu Xinqi">
 <meta name="twitter:card" content="summary">
@@ -96,10 +103,10 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"always","offset":30,"b2t":false,"scrollpercent":true,"onmobile":true},
     fancybox: true,
     tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownBigIn","post_body":"slideDownIn","coll_header":"slideUpBigIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -122,7 +129,7 @@
 
 
 
-  <title>归档 | Thought</title>
+  <title>归档 | Liu Xinqi's Blog</title>
   
 
 
@@ -151,13 +158,13 @@
 
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Thought</span>
-        <span class="logo-line-after"><i></i></span>
+        <!<span class="logo-line-before"><i></i></span>
+        <span class="site-title">Liu Xinqi's Blog</span>
+        <!<span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">Think about the reasons to remember</p>
+        <p class="site-subtitle">Remember</p>
       
   </div>
 
@@ -178,7 +185,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/%20" rel="section">
+          <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
@@ -187,8 +194,38 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
-          <a href="/archives/%20" rel="section">
+          <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -228,7 +265,7 @@
         
           
         
-        嗯..! 目前共计 3 篇日志。 继续努力。
+        嗯..! 目前共计 5 篇日志。 继续努力。
       </span>
 
       
@@ -252,9 +289,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2020/05/01/%E7%AC%AC%E4%B8%80%E7%AF%87/" itemprop="url">
+            <a class="post-title-link" href="/2020/05/03/Liu-Xinqi/" itemprop="url">
               
-                <span itemprop="name">第一篇</span>
+                <span itemprop="name">Liu Xinqi 刘鑫琦</span>
               
             </a>
         
@@ -262,9 +299,9 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2020-05-01T21:25:21+08:00"
-              content="2020-05-01" >
-          05-01
+              datetime="2020-05-03T16:42:50+08:00"
+              content="2020-05-03" >
+          05-03
         </time>
       </div>
 
@@ -289,9 +326,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2020/05/01/test-my-site/" itemprop="url">
+            <a class="post-title-link" href="/2020/05/03/Non-prior-Dynamic-Reconstruction-of-Deformable-Flexible-Objects/" itemprop="url">
               
-                <span itemprop="name">test_my_site</span>
+                <span itemprop="name">Non-prior Dynamic Reconstruction of Deformable Flexible Objects.</span>
               
             </a>
         
@@ -299,9 +336,9 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2020-05-01T13:25:12+08:00"
-              content="2020-05-01" >
-          05-01
+              datetime="2020-05-03T15:56:41+08:00"
+              content="2020-05-03" >
+          05-03
         </time>
       </div>
 
@@ -326,9 +363,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2020/05/01/hello-world/" itemprop="url">
+            <a class="post-title-link" href="/2020/05/03/Refinefusion-Real-Time-3D-Reconstruction-using-Refined-Depth-Map-and-The-Data-Structure-Combines-Voxels-and-Points/" itemprop="url">
               
-                <span itemprop="name">Hello World</span>
+                <span itemprop="name">Refinefusion Real-Time 3D Reconstruction using Refined Depth Map and The Data Structure Combines Voxels and Points.</span>
               
             </a>
         
@@ -336,9 +373,83 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2020-05-01T13:13:36+08:00"
-              content="2020-05-01" >
-          05-01
+              datetime="2020-05-03T15:30:40+08:00"
+              content="2020-05-03" >
+          05-03
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2020/05/03/A-New-Volumetric-Fusion-Strategy-with-Adaptive-Weight-Field-for-RGB-D-Reconstruction/" itemprop="url">
+              
+                <span itemprop="name">A New Volumetric Fusion Strategy with Adaptive Weight Field for RGB-D Reconstruction.</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2020-05-03T13:23:36+08:00"
+              content="2020-05-03" >
+          05-03
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2020/05/03/A-Real-Time-RGB-D-Reconstruction-Framework-with-High-Resolution-Texture/" itemprop="url">
+              
+                <span itemprop="name">A Real-Time RGB-D Reconstruction Framework with High-Resolution Texture.</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2020-05-03T00:56:38+08:00"
+              content="2020-05-03" >
+          05-03
         </time>
       </div>
 
@@ -379,6 +490,8 @@
 
   <aside id="sidebar" class="sidebar">
     
+      <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
@@ -389,18 +502,24 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/images/tx.jpg"
+                alt="Liu Xinqi" />
+            
               <p class="site-author-name" itemprop="name">Liu Xinqi</p>
-              <p class="site-description motion-element" itemprop="description">技术的积淀，人文的体察，为免于工具化的自我反思和价值思考，所读，所见，所知，所想。</p>
+              <p class="site-description motion-element" itemprop="description">技术的积淀，人文的体察，为免于工具化的<br>自我反思和价值思考，所读，所见，所知，所想。</p>
           </div>
+
+
 
           <nav class="site-state motion-element">
 
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/%20%7C%7C%20archive">
+                <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -408,14 +527,15 @@
 
             
 
+
             
               
               
               <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">2</span>
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">标签</span>
-                
+                </a>
               </div>
             
 
@@ -423,6 +543,26 @@
 
           
 
+
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=4899152&auto=1&height=66"></iframe>
+
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/liuxinqi12" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:liuxinqi7@foxmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -430,6 +570,8 @@
 
           
           
+
+
 
           
 
@@ -450,7 +592,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+        ﻿<div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -460,20 +602,29 @@
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
-
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
-
-
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      本站访客数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      本站总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
 
 
 
@@ -488,6 +639,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
