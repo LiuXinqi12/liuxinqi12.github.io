@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MulayClothCap's Project Page</title>
+<!-- Bootstrap -->
+<link href="./css/bootstrap-4.0.0.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/seal_icon.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+</head>
+<body>
+<div id="page_container">
+<header>
+  <div class="jumbotron" >
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!--<h5 class="text-center">International Conference on Computer Vision (ICCV 2021)</h5>-->
+          <h2 class="text-center">Generating High-fidelity Texture in RGB-D Reconstruction using Patches Density Regularization</h1>
+            <hr>
+          <h6 class="text-center"><a href="https://www.liuxinqi.cn/" target="_blank">Xinqi Liu</a>,&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://person.zju.edu.cn/lijituo" target="_blank">Jituo Li</a>,&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://person.zju.edu.cn/0083071" target="_blank">Guodong Lu</a></h6>
+          <p class="text-center"><a href="https://www.zju.edu.cn/">Zhejiang University</a> </p>
+          <p class="text-center mt-3 " style="font-size:15px; font-style:italic"> <a>Computer Aided Design (CAD), 2023</a></p>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <div class="row justify-content-center">
+        <div class="column">
+            <p class="mr-4"><a class="btn  btn-dark" href="https://www.sciencedirect.com/science/article/abs/pii/S0010448523000489" role="button"  target="_blank">
+              <i class="fa fa-file"></i> Paper</a> </p>
+        </div>
+        <!--
+        <div class="column">
+            <p class="mr-0"><a class="btn  btn-dark" href="https://github.com/zju3dv/neuralbody" role="button"  target="_blank">
+              <i class="fa fa-github-alt"></i> Code</a> </p>
+        </div>
+        
+        <div class="column">
+            <p class="ml-0"><a class="btn  btn-dark " href="" role="button" target="_blank">
+              <i class="fa fa-database"></i> Dataset</a> </p>
+        </div>-->
+    </div>
+  </div>
+</header>
+<section>
+  <div class="container">
+    <p>&nbsp;</p>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center"> <img src="assets/teaser.png" width="900" alt=""/>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Abstract</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center  offset-xl-0 col-xl-12">
+        <p class="text-left"><em>
+          We propose a texture-mapping-based online RGB-D reconstruction framework that can generate stable and high-fidelity texture results in near real-time. Different from previous texture generation methods that are prone to output blur results (point blending methods) or require huge computational costs (previous texture mapping methods), our approach achieves high-fidelity and fast texture generation by introducing a new patches density regularization and a series of lightweight optimization methods. The patches density regularization addresses a universal but widely neglected problem: the texture patches fragmentation, which causes discontinuous seams and worsens texture results. By adding this regularization to the optimization process, the fragmentation can be effectively alleviated. To maintain high performance, we design lightweight optimization methods to significantly reduce the computational cost during texture generation. An incremental texture update strategy removes redundant triangular mesh, and a hierarchical-aware seam leveling reduces the number of optimization objects by utilizing light-varying smooth features. Furthermore, the enhanced voxel representation ensures the continuity and stability of the global texture results. Extensive experiments demonstrate that our method achieves a state-of-the-art level, even compared to the mainstream online and offline RGB-D reconstruction frameworks.
+          </em></p>
+        <p class="text-left">&nbsp;</p>
+        <p class="text-left">&nbsp;</p>
+        
+
+        <img src="assets/overviwer.png" width="950" height="300" alt=""/>
+        <p>Fig 1.&nbsp;Our Pipeline.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Results </h2>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center"> <img src="assets/results1.png" width="950" alt=""/>
+        <p class="text-center">Fig 2. Reconstruction results.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center "> <img src="assets/results2.png" width="950" alt=""/>
+        <p class="text-center">Fig 3. Reconstruction results.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center"> <img src="assets/results3.png" width="950" alt=""/>
+        <p class="text-center">Fig 4. Reconstruction results.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <hr>
+    <!--<div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Technical Paper</h2>
+      </div>
+      <p>&nbsp;</p>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center"> <a href="assets/MulayClothCap.pdf" target="_blank"><img src="assets/paper_our.png" width="400" alt=""/></a>
+      <p>&nbsp;</p>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 mb-4 mt-2 text-center">
+        <h2>Dataset</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center"><a href="https://www.baidu.com" target="_blank"><img src="assets/dataset-2.png" width="800" alt=""/></a>
+      <p>&nbsp;</p>
+        <p class="text-center">Fig 4. Our dataset: ClothStyle.</p>
+        <p>&nbsp;</p>
+    </div>
+    -->
+    <!--
+    <div class="row">
+      <div class="col-lg-12 mb-4 mt-2 text-center">
+        <h2>Demo Video</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+      <video controls="controls" width="1024" height="576">
+        <source src="./assets/2455_SimulCap_Video_Sub_Refined_2.mp4" type="video/mp4">
+      </video>
+      <p>&nbsp;</p>
+    </div> 
+  <hr>-->
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Citation</h2>
+      </div>
+    </div>
+
+      
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-left", style="background-color:#eee">
+      <p><span style="color:#000000;font-family:'Courier New';font-size:13px;"> Xinqi Liu, Jituo Li, Guodong Lu. "Generating High-fidelity Texture in RGB-D Reconstruction using Patches Density Regularization". CAD 2023.</span></p>
+      <p>&nbsp;</p>
+      <p><span style="color:#000000;font-family:'Courier New';font-size:13px;">@InProceedings{Liu2023RealTexture, <br>
+        &nbsp;&nbsp;author = {Xinqi Liu, Jituo Li, and Guodong Lu},<br>
+        &nbsp;&nbsp;title = {Generating High-fidelity Texture in RGB-D Reconstruction using Patches Density Regularization},<br>
+        &nbsp;&nbsp;booktitle = {Computer Aided Design (CAD)},<br>
+        <!-- &nbsp;&nbsp;month={March},<br>--> 
+        &nbsp;&nbsp;year={2023},<br>
+        &nbsp;&nbsp;publisher={IEEE},<br>
+        }</span></p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="row"> </div>
+  </div>
+
+  <br />
+  <br />
+  <br />
+  <div class="jumbotron"> 
+    <div class="container">
+      <footer class="text-center " style="font-size:15px ">
+        Thanks to <a href="http://www.liuyebin.com/" target="_blank">Yebin Liu</a> and <a href="https://lioryariv.github.io/" target="_blank">Lior Yariv</a> for the website template.
+      </footer>
+  </div>
+  </div>
+</section>	
+</div>
+
+    
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<!--
+  <script src="./js/jquery-3.2.1.min.js"></script> -->
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<!--
+<script src="./js/popper.min.js"></script> 
+<script src="./js/bootstrap-4.0.0.js"></script>
+-->
+</body>
+</html>

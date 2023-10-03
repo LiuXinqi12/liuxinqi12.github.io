@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MulayClothCap's Project Page</title>
+<!-- Bootstrap -->
+<link href="./css/bootstrap-4.0.0.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/seal_icon.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+</head>
+<body>
+<div id="page_container">
+<header>
+  <div class="jumbotron" >
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!--<h5 class="text-center">International Conference on Computer Vision (ICCV 2021)</h5>-->
+          <h2 class="text-center">Wrinkles Realistic Clothing Reconstruction by Combining Implicit and Explicit Method</h1>
+            <hr>
+          <h6 class="text-center"><a href="https://www.liuxinqi.cn/" target="_blank">Xinqi Liu</a>,&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://person.zju.edu.cn/lijituo" target="_blank">Jituo Li</a>,&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://person.zju.edu.cn/0083071" target="_blank">Guodong Lu</a></h6>
+          <p class="text-center"><a href="https://www.zju.edu.cn/">Zhejiang University</a> </p>
+          <p class="text-center mt-3 " style="font-size:15px; font-style:italic"> <a>Computer Aided Design (CAD), 2023</a></p>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <div class="row justify-content-center">
+        <div class="column">
+            <p class="mr-4"><a class="btn  btn-dark" href="https://www.sciencedirect.com/science/article/abs/pii/S0010448523000465" role="button"  target="_blank">
+              <i class="fa fa-file"></i> Paper</a> </p>
+        </div>
+        <!--
+        <div class="column">
+            <p class="mr-0"><a class="btn  btn-dark" href="https://github.com/zju3dv/neuralbody" role="button"  target="_blank">
+              <i class="fa fa-github-alt"></i> Code</a> </p>
+        </div>
+        
+        <div class="column">
+            <p class="ml-0"><a class="btn  btn-dark " href="" role="button" target="_blank">
+              <i class="fa fa-database"></i> Dataset</a> </p>
+        </div>-->
+    </div>
+  </div>
+</header>
+<section>
+  <div class="container">
+    <p>&nbsp;</p>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center"> <img src="assets/teaser.png" width="800" alt=""/>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Abstract</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center  offset-xl-0 col-xl-12">
+        <p class="text-left"><em>
+          We propose a novel method to achieve robust and wrinkle-realistic clothing reconstruction from a single RGB image. Our approach successfully exploits both advantages of implicit function methods and explicit clothing generative models. The former allows to capture high-frequency wrinkle details and clothing appearance from an image, and the latter provides reasonable clothing shape prior and structured topology. To utilize the implicit function method to obtain implicit clothing, the key is that we need to automatically segment the clothing region from the reconstructed results and solve its depth ambiguity problem. Therefore, we design a pixel-aligned segmentation method to achieve automatic and complete clothing segmentation. It relies on a lightweight clothing mask network and a simple but effective segmentation strategy. To deal with the depth ambiguity problem, a depth correction function is introduced to significantly remove the uncertainty in the depth direction and recover the correct clothing shape. Further, we utilize explicit clothing generative models to provide reasonable shapes and topologies. It first infers an initial explicit clothing template based on generative models. Then, the implicit clothing is fitted by this explicit template to capture high-frequency deformation, resulting in wrinkle-realistic and structured clothing results. Extensive experiments have proved the validity of our approach with the visual effect and geometry accuracy both reaching the state-of-the-art level in clothing reconstruction from a single image.
+          </em></p>
+        <p class="text-left">&nbsp;</p>
+        <p class="text-left">&nbsp;</p>
+        
+
+        <img src="assets/overviwer.png" width="950" height="350" alt=""/>
+        <p>Fig 1.&nbsp;Our Pipeline.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Results </h2>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center"> <img src="assets/results1.png" width="950" alt=""/>
+        <p class="text-center">Fig 2. Reconstruction results.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center "> <img src="assets/results2.png" width="950" alt=""/>
+        <p class="text-center">Fig 3. Reconstruction results.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center"> <img src="assets/results3.png" width="950" alt=""/>
+        <p class="text-center">Fig 4. Reconstruction results.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
+    <hr>
+    <!--<div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Technical Paper</h2>
+      </div>
+      <p>&nbsp;</p>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center"> <a href="assets/MulayClothCap.pdf" target="_blank"><img src="assets/paper_our.png" width="400" alt=""/></a>
+      <p>&nbsp;</p>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 mb-4 mt-2 text-center">
+        <h2>Dataset</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center"><a href="https://www.baidu.com" target="_blank"><img src="assets/dataset-2.png" width="800" alt=""/></a>
+      <p>&nbsp;</p>
+        <p class="text-center">Fig 4. Our dataset: ClothStyle.</p>
+        <p>&nbsp;</p>
+    </div>
+    -->
+    <!--
+    <div class="row">
+      <div class="col-lg-12 mb-4 mt-2 text-center">
+        <h2>Demo Video</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+      <video controls="controls" width="1024" height="576">
+        <source src="./assets/2455_SimulCap_Video_Sub_Refined_2.mp4" type="video/mp4">
+      </video>
+      <p>&nbsp;</p>
+    </div> 
+  <hr>-->
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Citation</h2>
+      </div>
+    </div>
+
+      
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-left", style="background-color:#eee">
+      <p><span style="color:#000000;font-family:'Courier New';font-size:13px;"> Xinqi Liu, Jituo Li, Guodong Lu. "Wrinkles Realistic Clothing Reconstruction by Combining Implicit and Explicit Method". CAD 2023.</span></p>
+      <p>&nbsp;</p>
+      <p><span style="color:#000000;font-family:'Courier New';font-size:13px;">@InProceedings{Liu2023CombinedCloth, <br>
+        &nbsp;&nbsp;author = {Xinqi Liu, Jituo Li, and Guodong Lu},<br>
+        &nbsp;&nbsp;title = {Wrinkles Realistic Clothing Reconstruction by Combining Implicit and Explicit Method},<br>
+        &nbsp;&nbsp;booktitle = {Computer Aided Design (CAD)},<br>
+        <!-- &nbsp;&nbsp;month={March},<br>--> 
+        &nbsp;&nbsp;year={2023},<br>
+        &nbsp;&nbsp;publisher={IEEE},<br>
+        }</span></p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="row"> </div>
+  </div>
+
+  <br />
+  <br />
+  <br />
+  <div class="jumbotron"> 
+    <div class="container">
+      <footer class="text-center " style="font-size:15px ">
+        Thanks to <a href="http://www.liuyebin.com/" target="_blank">Yebin Liu</a> and <a href="https://lioryariv.github.io/" target="_blank">Lior Yariv</a> for the website template.
+      </footer>
+  </div>
+  </div>
+</section>	
+</div>
+
+    
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<!--
+  <script src="./js/jquery-3.2.1.min.js"></script> -->
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<!--
+<script src="./js/popper.min.js"></script> 
+<script src="./js/bootstrap-4.0.0.js"></script>
+-->
+</body>
+</html>

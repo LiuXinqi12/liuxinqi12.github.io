@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MulayClothCap's Project Page</title>
+<!-- Bootstrap -->
+<link href="./css/bootstrap-4.0.0.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/seal_icon.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+</head>
+<body>
+<div id="page_container">
+<header>
+  <div class="jumbotron" >
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!--<h5 class="text-center">International Conference on Computer Vision (ICCV 2021)</h5>-->
+          <h2 class="text-center">Learning Pose Controllable Human Reconstruction with Dynamic Implicit Fields from a Single Image</h1>
+            <hr>
+          <h6 class="text-center"><a href="https://www.liuxinqi.cn/" target="_blank">Xinqi Liu</a>,&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://person.zju.edu.cn/lijituo" target="_blank">Jituo Li</a>,&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://person.zju.edu.cn/0083071" target="_blank">Guodong Lu</a></h6>
+          <p class="text-center"><a href="https://www.zju.edu.cn/">Zhejiang University</a> </p>
+          <p class="text-center mt-3 " style="font-size:15px; font-style:italic"> <a>IEEE Transactions on Visualization and Computer Graphics (TVCG), Under Reviwer, 2023</a></p>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <div class="row justify-content-center">
+        <div class="column">
+            <p class="mr-4"><a class="btn  btn-dark" href="" role="button"  target="_blank">
+              <i class="fa fa-file"></i> Paper</a> </p>
+        </div>
+        <!--
+        <div class="column">
+            <p class="mr-0"><a class="btn  btn-dark" href="https://github.com/zju3dv/neuralbody" role="button"  target="_blank">
+              <i class="fa fa-github-alt"></i> Code</a> </p>
+        </div>
+        -->
+        <div class="column">
+            <p class="ml-0"><a class="btn  btn-dark " href="" role="button" target="_blank">
+              <i class="fa fa-database"></i> Dataset</a> </p>
+        </div>
+    </div>
+  </div>
+</header>
+<section>
+  <div class="container">
+    <p>&nbsp;</p>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Abstract</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center  offset-xl-0 col-xl-12">
+        <p class="text-left"><em>
+          Recovering a user-special and controllable human model from a single RGB image is a nontrivial challenge. Existing methods usually generate static results with an image consistent subject’s pose. Our work aspires to achieve pose-controllable human reconstruction from a single image by learning a dynamic (multi-pose) implicit field. We first construct a feature-embedded human model (FEHM) as a bridge to propagate image features to different pose spaces. Based on FEHM, we then encode three pose-decoupled features. Global image features represent user-specific shapes in images and replace widely used pixel-aligned ways to avoid unwanted shape-pose entanglement. Spatial color features propagate FEHM-embedded image cues into 3D pose space to provide spatial high-frequency guidance. Spatial geometry features improve reconstruction robustness by using the surface shape of the FEHM as the prior. Finally, new implicit functions are designed to predict the dynamic human implicit fields. For effective supervision, a realistic human avatar dataset, SimuSCAN, with 1000+ models is constructed using a low-cost hierarchical mesh registration method. Extensive experiments demonstrate that our method achieves the state-of-the-art reconstruction level.
+          </em></p>
+        <p class="text-left">&nbsp;</p>
+        <p class="text-left">&nbsp;</p>
+        <img src="assets/teaser2.gif" width="500" height="500" alt=""/>
+        <p>Fig 1.&nbsp;Our Dynamic Reconstruction Results.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <hr>
+    <!-- ><div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Results </h2>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center offset-xl-1 col-xl-10"> <img src="assets/teaser-2.png" width="800" alt=""/>
+        <p>&nbsp;</p>
+        <p class="text-center">Fig 2. Reconstruction results.</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center offset-xl-1 col-xl-10"> <img src="assets/result.png" width="800" alt=""/>
+        <p>&nbsp;</p>
+        <p class="text-center">Fig 3. Example results reconstructed by our system on the public dataset.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Technical Paper</h2>
+      </div>
+      <p>&nbsp;</p>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center"> <a href="assets/MulayClothCap.pdf" target="_blank"><img src="assets/paper_our.png" width="400" alt=""/></a>
+      <p>&nbsp;</p>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 mb-4 mt-2 text-center">
+        <h2>Dataset</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center"><a href="https://www.baidu.com" target="_blank"><img src="assets/dataset-2.png" width="800" alt=""/></a>
+      <p>&nbsp;</p>
+        <p class="text-center">Fig 4. Our dataset: ClothStyle.</p>
+        <p>&nbsp;</p>
+    </div>-->
+    <!--
+    <div class="row">
+      <div class="col-lg-12 mb-4 mt-2 text-center">
+        <h2>Demo Video</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+      <video controls="controls" width="1024" height="576">
+        <source src="./assets/2455_SimulCap_Video_Sub_Refined_2.mp4" type="video/mp4">
+      </video>
+      <p>&nbsp;</p>
+    </div> 
+  <hr>-->
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Citation</h2>
+      </div>
+    </div>
+
+      
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-left", style="background-color:#eee">
+      <p><span style="color:#000000;font-family:'Courier New';font-size:13px;"> Xinqi Liu, Jituo Li, Guodong Lu. "Learning Pose Controllable Human Reconstruction with Dynamic Implicit Fields from a Single Image". IEEE TVCG 2023.</span></p>
+      <p>&nbsp;</p>
+      <p><span style="color:#000000;font-family:'Courier New';font-size:13px;">@InProceedings{Liu2023DynamicField, <br>
+        &nbsp;&nbsp;author = {Xinqi Liu, Jituo Li, and Guodong Lu},<br>
+        &nbsp;&nbsp;title = {Learning Pose Controllable Human Reconstruction with Dynamic Implicit Fields from a Single Image},<br>
+        &nbsp;&nbsp;booktitle = {IEEE Transactions on Visualization and Computer Graphics (TVCG)},<br>
+        <!-- &nbsp;&nbsp;month={March},<br>--> 
+        &nbsp;&nbsp;year={2023},<br>
+        &nbsp;&nbsp;publisher={IEEE},<br>
+        }</span></p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="row"> </div>
+  </div>
+
+  <br />
+  <br />
+  <br />
+  <div class="jumbotron"> 
+    <div class="container">
+      <footer class="text-center " style="font-size:15px ">
+        Thanks to <a href="http://www.liuyebin.com/" target="_blank">Yebin Liu</a> and <a href="https://lioryariv.github.io/" target="_blank">Lior Yariv</a> for the website template.
+      </footer>
+  </div>
+  </div>
+</section>	
+</div>
+
+    
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<!--
+  <script src="./js/jquery-3.2.1.min.js"></script> -->
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<!--
+<script src="./js/popper.min.js"></script> 
+<script src="./js/bootstrap-4.0.0.js"></script>
+-->
+</body>
+</html>
